@@ -1,11 +1,11 @@
 # pesu-dash
 ---
 
-##Overview:
+## Overview:
 A clean, fast, modern replacement for PESU Academy’s cluttered UI.
 Built using your official pesuacademy Python wrapper for rock-solid, typed data fetching.
 
-##TEch stack
+## TEch stack
 
 ### Frontend
 - ReactJS
@@ -44,7 +44,7 @@ Built using your official pesuacademy Python wrapper for rock-solid, typed data 
 /api
 ```
 
-####Auth
+#### Auth
 `POST /auth/login`
 Authenticate with PESU Academy using the wrapper.
 Creates a temporary in-memory wrapper session.
@@ -66,7 +66,7 @@ SESSIONS[session_id] = session
 ```
 
 
-####Fetching data
+#### Fetching data
 `POST /profile`
 ```json
 { "session_id": "uuid" }
@@ -91,7 +91,7 @@ SESSIONS[session_id] = session
 ```json
 { "session_id": "uuid" }
 ```
-####Materials Workflow
+#### Materials Workflow
 `/materials/units`
 `/materials/topics`
 `/materials/links`
