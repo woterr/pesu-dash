@@ -2,7 +2,6 @@
 
 ## Overview:
 A clean, fast, modern replacement for PESU Academy’s cluttered UI.
-Built using your official pesuacademy Python wrapper for rock-solid, typed data fetching.
 
 ## Tech stack
 
