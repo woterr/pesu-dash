@@ -56,7 +56,7 @@ Request:
 ```
 
 Sessions in memory:
-```json
+```py
 SESSIONS = {
     "b2a3d...": <PESUAcademy instance>,
     "9e12f...": <PESUAcademy instance>,
